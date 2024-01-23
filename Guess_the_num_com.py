@@ -7,6 +7,7 @@ def guess(x):
     while(guess != random_number):
         guess = int(input(f"Guess a number between 1 to {x}: "))
         list.append(guess)
+        wr
         if guess > random_number:
             print(f"Oops! you are so close but {guess} is too high..")
         elif guess < random_number:
